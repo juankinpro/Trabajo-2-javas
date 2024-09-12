@@ -8,6 +8,8 @@ let Resta = n2 - n1;
 let Multi = n2 * n4;
 let Divi = n2 / n4;
 let Peticion = true;
-let HM = "HOLA MUNDO";
-
-
+let HM = "HOLA MUNDO: ";
+let Hoy = new Date();
+let Dia = Hoy.getDate(); // Obtiene el día del mes
+let Par = Dia % 2 === 0; // Verifica si el día es par
+let Fecha = Hoy.toDateString();
